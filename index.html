@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Netflix clone</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img class="logo-img" src="./img/netflixlogo.png" alt="" />
+      </div>
+
+      <div class="search">
+        <div class="search-bar">
+          <input
+            onkeyup="searchMovie()"
+            type="text"
+            id="search"
+            placeholder="Search Movie"
+            class="search-box"
+          />
+          <img
+            onclick="searchMovie()"
+            class="search-icon"
+            src="./img/search.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+
+    <section class="movies" id="movies">
+      
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
